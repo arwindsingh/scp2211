@@ -7,7 +7,7 @@ const games = Game.map(
         return(
             <div className="col-20" key={Game.item}>
                     <div className="card shadow-sm">
-                        <img src= {Game.image}  />
+                        <img src= {Game.image} alt={Game.game}  />
                         <div className="card-body">
                             <p className="card-text">{Game["special containment procedures"]}</p>
                             <p className="card-text">{Game.description}</p>
